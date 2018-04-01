@@ -1,0 +1,6 @@
+framework module Pods_HansTestSearchViewController {
+  umbrella header "Pods-HansTestSearchViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BA48933D21B22F017E1592 /* Pods_HansTestSearchViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960A30C103AE9D96580A539C /* Pods_HansTestSearchViewControllerTests.framework */; };
+		299D93E6606AB0ED2F256179 /* Pods_HansTestSearchViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9B272E277951E87A1AF5D8 /* Pods_HansTestSearchViewController.framework */; };
+		543EC41E782B3EE77C5BAEDD /* Pods_HansTestSearchViewControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79741F7BAFB09BFE86D3A754 /* Pods_HansTestSearchViewControllerUITests.framework */; };
+		EC80F83E20707B44002A2DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC80F83D20707B44002A2DA1 /* AppDelegate.swift */; };
+		EC80F84020707B44002A2DA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC80F83F20707B44002A2DA1 /* ViewController.swift */; };
+		EC80F84320707B44002A2DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC80F84120707B44002A2DA1 /* Main.storyboard */; };
+		EC80F84520707B44002A2DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC80F84420707B44002A2DA1 /* Assets.xcassets */; };
+		EC80F84820707B44002A2DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC80F84620707B44002A2DA1 /* LaunchScreen.storyboard */; };
+		EC80F85320707B44002A2DA1 /* HansTestSearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC80F85220707B44002A2DA1 /* HansTestSearchViewControllerTests.swift */; };
+		EC80F85E20707B44002A2DA1 /* HansTestSearchViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC80F85D20707B44002A2DA1 /* HansTestSearchViewControllerUITests.swift */; };
+		EC80F86C20707BA4002A2DA1 /* View1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC80F86B20707BA4002A2DA1 /* View1Controller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC80F84F20707B44002A2DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC80F83220707B44002A2DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC80F83920707B44002A2DA1;
+			remoteInfo = HansTestSearchViewController;
+		};
+		EC80F85A20707B44002A2DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC80F83220707B44002A2DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC80F83920707B44002A2DA1;
+			remoteInfo = HansTestSearchViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0587C0562435A7194A991F6F /* Pods-HansTestSearchViewControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansTestSearchViewControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HansTestSearchViewControllerUITests/Pods-HansTestSearchViewControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C9B272E277951E87A1AF5D8 /* Pods_HansTestSearchViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansTestSearchViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E95F8D02D4A25B89BB3AD0A /* Pods-HansTestSearchViewControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansTestSearchViewControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HansTestSearchViewControllerUITests/Pods-HansTestSearchViewControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CD29D62BB9E5D83B07DF051 /* Pods-HansTestSearchViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansTestSearchViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HansTestSearchViewController/Pods-HansTestSearchViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		6267E2F6C6F2BBD06516432C /* Pods-HansTestSearchViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansTestSearchViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-HansTestSearchViewController/Pods-HansTestSearchViewController.release.xcconfig"; sourceTree = "<group>"; };
+		79741F7BAFB09BFE86D3A754 /* Pods_HansTestSearchViewControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansTestSearchViewControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960A30C103AE9D96580A539C /* Pods_HansTestSearchViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HansTestSearchViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A600F0646A5A0E44AA1A8705 /* Pods-HansTestSearchViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansTestSearchViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HansTestSearchViewControllerTests/Pods-HansTestSearchViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC80F83A20707B44002A2DA1 /* HansTestSearchViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HansTestSearchViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC80F83D20707B44002A2DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC80F83F20707B44002A2DA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC80F84220707B44002A2DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC80F84420707B44002A2DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC80F84720707B44002A2DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC80F84920707B44002A2DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC80F84E20707B44002A2DA1 /* HansTestSearchViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansTestSearchViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC80F85220707B44002A2DA1 /* HansTestSearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansTestSearchViewControllerTests.swift; sourceTree = "<group>"; };
+		EC80F85420707B44002A2DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC80F85920707B44002A2DA1 /* HansTestSearchViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansTestSearchViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC80F85D20707B44002A2DA1 /* HansTestSearchViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansTestSearchViewControllerUITests.swift; sourceTree = "<group>"; };
+		EC80F85F20707B44002A2DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC80F86B20707BA4002A2DA1 /* View1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1Controller.swift; sourceTree = "<group>"; };
+		FDCC65D14A50B7B5D4310C42 /* Pods-HansTestSearchViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HansTestSearchViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HansTestSearchViewControllerTests/Pods-HansTestSearchViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC80F83720707B44002A2DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299D93E6606AB0ED2F256179 /* Pods_HansTestSearchViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC80F84B20707B44002A2DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BA48933D21B22F017E1592 /* Pods_HansTestSearchViewControllerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC80F85620707B44002A2DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543EC41E782B3EE77C5BAEDD /* Pods_HansTestSearchViewControllerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96EA17EE79121EC275021568 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CD29D62BB9E5D83B07DF051 /* Pods-HansTestSearchViewController.debug.xcconfig */,
+				6267E2F6C6F2BBD06516432C /* Pods-HansTestSearchViewController.release.xcconfig */,
+				FDCC65D14A50B7B5D4310C42 /* Pods-HansTestSearchViewControllerTests.debug.xcconfig */,
+				A600F0646A5A0E44AA1A8705 /* Pods-HansTestSearchViewControllerTests.release.xcconfig */,
+				0587C0562435A7194A991F6F /* Pods-HansTestSearchViewControllerUITests.debug.xcconfig */,
+				3E95F8D02D4A25B89BB3AD0A /* Pods-HansTestSearchViewControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC80F83120707B44002A2DA1 = {
+			isa = PBXGroup;
+			children = (
+				EC80F83C20707B44002A2DA1 /* HansTestSearchViewController */,
+				EC80F85120707B44002A2DA1 /* HansTestSearchViewControllerTests */,
+				EC80F85C20707B44002A2DA1 /* HansTestSearchViewControllerUITests */,
+				EC80F83B20707B44002A2DA1 /* Products */,
+				96EA17EE79121EC275021568 /* Pods */,
+				FA336BBE7D0F36D7538EF7EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC80F83B20707B44002A2DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC80F83A20707B44002A2DA1 /* HansTestSearchViewController.app */,
+				EC80F84E20707B44002A2DA1 /* HansTestSearchViewControllerTests.xctest */,
+				EC80F85920707B44002A2DA1 /* HansTestSearchViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC80F83C20707B44002A2DA1 /* HansTestSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC80F83D20707B44002A2DA1 /* AppDelegate.swift */,
+				EC80F83F20707B44002A2DA1 /* ViewController.swift */,
+				EC80F84120707B44002A2DA1 /* Main.storyboard */,
+				EC80F84420707B44002A2DA1 /* Assets.xcassets */,
+				EC80F84620707B44002A2DA1 /* LaunchScreen.storyboard */,
+				EC80F84920707B44002A2DA1 /* Info.plist */,
+				EC80F86B20707BA4002A2DA1 /* View1Controller.swift */,
+			);
+			path = HansTestSearchViewController;
+			sourceTree = "<group>";
+		};
+		EC80F85120707B44002A2DA1 /* HansTestSearchViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC80F85220707B44002A2DA1 /* HansTestSearchViewControllerTests.swift */,
+				EC80F85420707B44002A2DA1 /* Info.plist */,
+			);
+			path = HansTestSearchViewControllerTests;
+			sourceTree = "<group>";
+		};
+		EC80F85C20707B44002A2DA1 /* HansTestSearchViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC80F85D20707B44002A2DA1 /* HansTestSearchViewControllerUITests.swift */,
+				EC80F85F20707B44002A2DA1 /* Info.plist */,
+			);
+			path = HansTestSearchViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		FA336BBE7D0F36D7538EF7EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B272E277951E87A1AF5D8 /* Pods_HansTestSearchViewController.framework */,
+				960A30C103AE9D96580A539C /* Pods_HansTestSearchViewControllerTests.framework */,
+				79741F7BAFB09BFE86D3A754 /* Pods_HansTestSearchViewControllerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC80F83920707B44002A2DA1 /* HansTestSearchViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC80F86220707B44002A2DA1 /* Build configuration list for PBXNativeTarget "HansTestSearchViewController" */;
+			buildPhases = (
+				185768D61BD25F8E84FBDCD4 /* [CP] Check Pods Manifest.lock */,
+				EC80F83620707B44002A2DA1 /* Sources */,
+				EC80F83720707B44002A2DA1 /* Frameworks */,
+				EC80F83820707B44002A2DA1 /* Resources */,
+				F6E0C410676370C023BAB81E /* [CP] Embed Pods Frameworks */,
+				75398E9843287FE7021D68A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HansTestSearchViewController;
+			productName = HansTestSearchViewController;
+			productReference = EC80F83A20707B44002A2DA1 /* HansTestSearchViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC80F84D20707B44002A2DA1 /* HansTestSearchViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC80F86520707B44002A2DA1 /* Build configuration list for PBXNativeTarget "HansTestSearchViewControllerTests" */;
+			buildPhases = (
+				E984E1A8A96A90E3C18BEDD0 /* [CP] Check Pods Manifest.lock */,
+				EC80F84A20707B44002A2DA1 /* Sources */,
+				EC80F84B20707B44002A2DA1 /* Frameworks */,
+				EC80F84C20707B44002A2DA1 /* Resources */,
+				80D43E51602A0954905CC53F /* [CP] Embed Pods Frameworks */,
+				6B100AEB10461F2759F8A2CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC80F85020707B44002A2DA1 /* PBXTargetDependency */,
+			);
+			name = HansTestSearchViewControllerTests;
+			productName = HansTestSearchViewControllerTests;
+			productReference = EC80F84E20707B44002A2DA1 /* HansTestSearchViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC80F85820707B44002A2DA1 /* HansTestSearchViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC80F86820707B44002A2DA1 /* Build configuration list for PBXNativeTarget "HansTestSearchViewControllerUITests" */;
+			buildPhases = (
+				1531FD13AFD548242E9D1845 /* [CP] Check Pods Manifest.lock */,
+				EC80F85520707B44002A2DA1 /* Sources */,
+				EC80F85620707B44002A2DA1 /* Frameworks */,
+				EC80F85720707B44002A2DA1 /* Resources */,
+				D07C53F2714D8F76D07CDFAE /* [CP] Embed Pods Frameworks */,
+				3F7030E646FDBE4071FAD8B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC80F85B20707B44002A2DA1 /* PBXTargetDependency */,
+			);
+			name = HansTestSearchViewControllerUITests;
+			productName = HansTestSearchViewControllerUITests;
+			productReference = EC80F85920707B44002A2DA1 /* HansTestSearchViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC80F83220707B44002A2DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = huangjianwu;
+				TargetAttributes = {
+					EC80F83920707B44002A2DA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC80F84D20707B44002A2DA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC80F83920707B44002A2DA1;
+					};
+					EC80F85820707B44002A2DA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC80F83920707B44002A2DA1;
+					};
+				};
+			};
+			buildConfigurationList = EC80F83520707B44002A2DA1 /* Build configuration list for PBXProject "HansTestSearchViewController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC80F83120707B44002A2DA1;
+			productRefGroup = EC80F83B20707B44002A2DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC80F83920707B44002A2DA1 /* HansTestSearchViewController */,
+				EC80F84D20707B44002A2DA1 /* HansTestSearchViewControllerTests */,
+				EC80F85820707B44002A2DA1 /* HansTestSearchViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC80F83820707B44002A2DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC80F84820707B44002A2DA1 /* LaunchScreen.storyboard in Resources */,
+				EC80F84520707B44002A2DA1 /* Assets.xcassets in Resources */,
+				EC80F84320707B44002A2DA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC80F84C20707B44002A2DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC80F85720707B44002A2DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1531FD13AFD548242E9D1845 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansTestSearchViewControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		185768D61BD25F8E84FBDCD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansTestSearchViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7030E646FDBE4071FAD8B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansTestSearchViewControllerUITests/Pods-HansTestSearchViewControllerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B100AEB10461F2759F8A2CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansTestSearchViewControllerTests/Pods-HansTestSearchViewControllerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75398E9843287FE7021D68A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansTestSearchViewController/Pods-HansTestSearchViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80D43E51602A0954905CC53F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansTestSearchViewControllerTests/Pods-HansTestSearchViewControllerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D07C53F2714D8F76D07CDFAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansTestSearchViewControllerUITests/Pods-HansTestSearchViewControllerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E984E1A8A96A90E3C18BEDD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HansTestSearchViewControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E0C410676370C023BAB81E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HansTestSearchViewController/Pods-HansTestSearchViewController-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Fuse/Fuse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fuse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HansTestSearchViewController/Pods-HansTestSearchViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC80F83620707B44002A2DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC80F84020707B44002A2DA1 /* ViewController.swift in Sources */,
+				EC80F83E20707B44002A2DA1 /* AppDelegate.swift in Sources */,
+				EC80F86C20707BA4002A2DA1 /* View1Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC80F84A20707B44002A2DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC80F85320707B44002A2DA1 /* HansTestSearchViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC80F85520707B44002A2DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC80F85E20707B44002A2DA1 /* HansTestSearchViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC80F85020707B44002A2DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC80F83920707B44002A2DA1 /* HansTestSearchViewController */;
+			targetProxy = EC80F84F20707B44002A2DA1 /* PBXContainerItemProxy */;
+		};
+		EC80F85B20707B44002A2DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC80F83920707B44002A2DA1 /* HansTestSearchViewController */;
+			targetProxy = EC80F85A20707B44002A2DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC80F84120707B44002A2DA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC80F84220707B44002A2DA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC80F84620707B44002A2DA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC80F84720707B44002A2DA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC80F86020707B44002A2DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC80F86120707B44002A2DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC80F86320707B44002A2DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD29D62BB9E5D83B07DF051 /* Pods-HansTestSearchViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansTestSearchViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansTestSearchViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC80F86420707B44002A2DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6267E2F6C6F2BBD06516432C /* Pods-HansTestSearchViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansTestSearchViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansTestSearchViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC80F86620707B44002A2DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCC65D14A50B7B5D4310C42 /* Pods-HansTestSearchViewControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansTestSearchViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansTestSearchViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HansTestSearchViewController.app/HansTestSearchViewController";
+			};
+			name = Debug;
+		};
+		EC80F86720707B44002A2DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A600F0646A5A0E44AA1A8705 /* Pods-HansTestSearchViewControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansTestSearchViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansTestSearchViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HansTestSearchViewController.app/HansTestSearchViewController";
+			};
+			name = Release;
+		};
+		EC80F86920707B44002A2DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0587C0562435A7194A991F6F /* Pods-HansTestSearchViewControllerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansTestSearchViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansTestSearchViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HansTestSearchViewController;
+			};
+			name = Debug;
+		};
+		EC80F86A20707B44002A2DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E95F8D02D4A25B89BB3AD0A /* Pods-HansTestSearchViewControllerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3KX659AR4;
+				INFOPLIST_FILE = HansTestSearchViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HansTestSearchViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HansTestSearchViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC80F83520707B44002A2DA1 /* Build configuration list for PBXProject "HansTestSearchViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC80F86020707B44002A2DA1 /* Debug */,
+				EC80F86120707B44002A2DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC80F86220707B44002A2DA1 /* Build configuration list for PBXNativeTarget "HansTestSearchViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC80F86320707B44002A2DA1 /* Debug */,
+				EC80F86420707B44002A2DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC80F86520707B44002A2DA1 /* Build configuration list for PBXNativeTarget "HansTestSearchViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC80F86620707B44002A2DA1 /* Debug */,
+				EC80F86720707B44002A2DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC80F86820707B44002A2DA1 /* Build configuration list for PBXNativeTarget "HansTestSearchViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC80F86920707B44002A2DA1 /* Debug */,
+				EC80F86A20707B44002A2DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC80F83220707B44002A2DA1 /* Project object */;
+}
